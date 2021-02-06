@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verify the login functionality",
+        "description": "",
+        "id": "verification-of-snapdeal-login;verify-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23454117901,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validation with Invalid credentials",
+            "match": {
+              "location": "StepDefinition.validation_with_Invalid_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144139861800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid \"Java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40399703300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify the invalid login error",
+            "match": {
+              "location": "StepDefinition.user_verify_the_invalid_login_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Snapdeal login",
+    "description": "",
+    "id": "verification-of-snapdeal-login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Janani/eclipse-workspace/AppiumwithCucumber/src/test/resources/snapdeal.feature",
+    "tags": []
+  }
+]
